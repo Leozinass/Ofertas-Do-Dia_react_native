@@ -1,13 +1,13 @@
-import fotoNewEra from '../../assets/boneNewEra.jpg';
-import fotoNike from '../../assets/boneNike.jpeg';
-import fotoDC from '../../assets/boneDC.jpeg';
-import fotoElement from '../../assets/boneElement.jpeg';
-import fotoSantaCruz from '../../assets/boneSantaCruz.jpeg';
-import fotoBillabong from '../../assets/boneBillabong.jpeg';
-import fotoIndependent from '../../assets/boneIndependent.jpeg';
-import fotoSpitFire from '../../assets/boneSpitFire.jpeg';
-import fotoEtnies from '../../assets/boneEtnies.jpeg';
-import fotoQix from '../../assets/boneQix.jpeg';
+import fotoNewEra from '../../assets/images/boneNewEra.jpg';
+import fotoNike from '../../assets/images/boneNike.jpeg';
+import fotoDC from '../../assets/images/boneDC.jpeg';
+import fotoElement from '../../assets/images/boneElement.jpeg';
+import fotoSantaCruz from '../../assets/images/boneSantaCruz.jpeg';
+import fotoBillabong from '../../assets/images/boneBillabong.jpeg';
+import fotoIndependent from '../../assets/images/boneIndependent.jpeg';
+import fotoSpitFire from '../../assets/images/boneSpitFire.jpeg';
+import fotoEtnies from '../../assets/images/boneEtnies.jpeg';
+import fotoQix from '../../assets/images/boneQix.jpeg';
 
 const dados = {
     bones: {
