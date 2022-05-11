@@ -1,0 +1,7 @@
+Para inicis ar o projeto:
+expo start
+npm run web
+npm run androids
+
+Dicas iniciais para React-native: https://www.devmedia.com.br/primeiro-app-com-react-native/40737
+Propriedades Flex: https://dev.to/alexandrefreire/react-native-flexbox-55gk
