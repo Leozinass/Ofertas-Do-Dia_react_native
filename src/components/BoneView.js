@@ -4,7 +4,7 @@ import { View, StyleSheet, Text, Image, Dimensions } from 'react-native';
 const width = Dimensions.get('screen').width;
 const height = Dimensions.get('screen').height / 3;
 const altura = 168;
-const largura = 300
+const largura = 300;
 const valor = (altura / largura * width);
 const numero = 1;
 
@@ -63,7 +63,6 @@ const style = StyleSheet.create ({
         marginBottom: 2.5,
         marginLeft: 2.5,
         borderBottomLeftRadius: 7,
-        borderTopRightRadius: 15,
         backgroundColor: '#6868',
         fontSize : 20
     },
@@ -75,6 +74,7 @@ const style = StyleSheet.create ({
         marginTop: 2.5,
         marginBottom: 2.5,
         marginLeft: 2.5,
-        borderBottomRightRadius: 7
+        borderBottomRightRadius: 7,
+        fontSize: 21
     }
 });

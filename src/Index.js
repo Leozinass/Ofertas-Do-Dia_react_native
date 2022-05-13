@@ -1,14 +1,16 @@
 import React from "react";
 import { StyleSheet, Dimensions, ScrollView, View } from 'react-native';
 import BoneView from './components/BoneView'
+import Footer from './components/footer'
 
 const width = Dimensions.get('screen').width;
-const height = Dimensions.get('screen').height;
+const height = Dimensions.get('screen').height /3;
 
 export default function Index({ bones }) {
     return (
         <ScrollView style={ style.container }>
             <BoneView style={style.bone} {...bones}/>
+            <Footer />
         </ScrollView>
     );
 }
