@@ -9,9 +9,9 @@ const height = Dimensions.get('screen').height;
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Header />
-      <Index {...dados}/>
+    <View style={ styles.container }>
+      <Header style={ styles.header } { ...dados.header } />
+      <Index { ...dados }/>
       <StatusBar />
     </View>
   );
@@ -26,4 +26,7 @@ const styles = StyleSheet.create({
     width: width,
     height: height
   },
+  header: {
+    marginBottom: 1
+  }
 });

@@ -7,13 +7,13 @@ const altura = 168;
 const largura = 350;
 const valor = altura / largura * width;
 
-export default function header() {
+export default function header({ titulo, subTitulo }) {
     return (<View style={style.container}>
             <View style={style.espaco}></View>
-            <LinearGradient style={style.borda} colors={['#A62A5C','#6A2597']}>
+            <LinearGradient style={style.borda} colors={['#836FFF','#E6E6FA']}>
                 <View style={style.letreiro}>
-                    <Text style={{fontSize: 40}}>SK8</Text>
-                    <Text style={{fontSize: 15}}>Life stateboards</Text>
+                    <Text style={style.fonteTitulo}>{ titulo }</Text>
+                    <Text style={style.FonteSubTitulo}>{ subTitulo }</Text>
                 </View>
             </LinearGradient>
         </View>
@@ -28,21 +28,26 @@ const style = StyleSheet.create({
     },
     espaco: {
         backgroundColor : '#FFFFFF',
-        height: '25%'
+        height: '20%'
     },
     letreiro: {
         alignItems: 'center',
         textAlign: 'center',
         backgroundColor: '#FFFFFF',
-        width: '96%',
+        width: '94%',
         height: '75%',
-        marginTop: 12,
+        marginTop: 16,
         borderRadius: 7,
         paddingTop: 12
     },
+    fonteTitulo: {
+        fontSize: 50
+    },   
+    FonteSubTitulo: {
+        fontSize: 20
+    },
     borda: {
         width: width,
-        alignItems: 'center',
-        borderRadius: 7
+        alignItems: 'center'
     }
 });

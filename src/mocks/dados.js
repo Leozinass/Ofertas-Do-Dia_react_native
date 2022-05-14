@@ -10,8 +10,38 @@ import fotoEtnies from '../../assets/images/boneEtnies.jpeg';
 import fotoQix from '../../assets/images/boneQix.jpeg';
 
 const dados = {
+    header: {
+        titulo: 'SK8',
+        subTitulo: 'Life Skateboarder'
+    },
+    footer: {
+        professor: 'Abimael',
+        materia: 'Programação para dispositivos móveis',
+        listaNomes: [
+            {
+                nome: 'Marcos Vinicius Nunes de Lima',
+                ra: '202002436311'
+            },
+            {
+                nome: 'Clóvis Silva',
+                ra: '202002135603'
+            },
+            {
+                nome: 'Luiz Fernando Rodriguês Lopes',
+                ra: '202002203013'
+            },
+            {
+                nome: 'Bruno Trevisan Volpe',
+                ra: '202002261031'
+            },
+            {
+                nome: 'Vinicius Miyahira',
+                ra: '202001498591'
+            },
+        ]
+    },
     bones: {
-        skate : [
+        skate: [
             {
                 imagem: fotoNewEra,
                 marca: 'New Era',

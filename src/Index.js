@@ -6,11 +6,11 @@ import Footer from './components/footer'
 const width = Dimensions.get('screen').width;
 const height = Dimensions.get('screen').height /3;
 
-export default function Index({ bones }) {
+export default function Index({ bones, footer }) {
     return (
         <ScrollView style={ style.container }>
-            <BoneView style={style.bone} {...bones}/>
-            <Footer />
+            <BoneView style={ style.bone } { ...bones }/>
+            <Footer { ...footer }/>
         </ScrollView>
     );
 }
@@ -20,7 +20,7 @@ const style = StyleSheet.create({
         width: width,
         height: height,
         backgroundColor: '#E6E6FA',
-        flexDirection: 'column'
+        flexDirection: 'column',
     },
     bone: {
         backgroundColor : '#836FFF'

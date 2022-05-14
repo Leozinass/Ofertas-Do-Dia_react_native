@@ -11,7 +11,7 @@ const numero = 1;
 export default function BoneView({ skate } ) {
     return <>           
         {
-            skate.map(({ imagem, marca, preco }) => {
+            skate.map( ( { imagem, marca, preco } ) => {
                 return <View key={marca} style={ style.container }>
                             <Image style={ style.image } source={ imagem }/>
                             <Text style={ style.marca }>{ marca }</Text>
