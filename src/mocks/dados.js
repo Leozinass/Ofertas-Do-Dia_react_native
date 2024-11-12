@@ -1,96 +1,86 @@
-import fotoNewEra from '../../assets/images/boneNewEra.jpg';
-import fotoNike from '../../assets/images/boneNike.jpeg';
-import fotoDC from '../../assets/images/boneDC.jpeg';
-import fotoElement from '../../assets/images/boneElement.jpeg';
-import fotoSantaCruz from '../../assets/images/boneSantaCruz.jpeg';
-import fotoBillabong from '../../assets/images/boneBillabong.jpeg';
-import fotoIndependent from '../../assets/images/boneIndependent.jpeg';
-import fotoSpitFire from '../../assets/images/boneSpitFire.jpeg';
-import fotoEtnies from '../../assets/images/boneEtnies.jpeg';
-import fotoQix from '../../assets/images/boneQix.jpeg';
+import fotofeijaodonade from '../../assets/images/feijaodonade.jpeg';
+import fotodetergenteype from '../../assets/images/detergenteype.jpeg';
+import fotopipocapacha from '../../assets/images/pipocapacha.jpeg';
+import fotokuat from '../../assets/images/kuat.jpeg';
+import fotopenteovos from '../../assets/images/penteovos.jpeg';
+import fotomargarinaclay from '../../assets/images/margarinaclay.jpeg';
+import fotogatorade from '../../assets/images/gatorade.jpeg';
+import fotobombomgaroto from '../../assets/images/bombomgaroto.jpeg';
+import fotonissinlamen from '../../assets/images/nissinlamen.jpeg';
+import fotobombril from '../../assets/images/bombril.jpeg';
 
 const dados = {
     header: {
-        titulo: 'SK8',
-        subTitulo: 'Life Skateboarder'
+        titulo: 'Ofertas',
+        subTitulo: 'do dia:'
     },
     footer: {
-        professor: 'Abimael',
-        materia: 'Programação para dispositivos móveis',
+        loja: 'Preço que cabe no bolso!',
+        endereco: 'Rua Isabela Jardim, 76, Ipê',
         listaNomes: [
             {
-                nome: 'Marcos Vinicius Nunes de Lima',
-                ra: '202002436311'
+                nome: 'Adriano Oliveira (Proprietário)',
+                numero: '(31) 99548 7421'
+                
             },
             {
-                nome: 'Clóvis Silva',
-                ra: '202002135603'
-            },
-            {
-                nome: 'Luiz Fernando Rodriguês Lopes',
-                ra: '202002203013'
-            },
-            {
-                nome: 'Bruno Trevisan Volpe',
-                ra: '202002261031'
-            },
-            {
-                nome: 'Vinicius Miyahira',
-                ra: '202001498591'
+                nome: 'Jackeline Santos (Tratar para encomendas)',
+                numero: '(31) 98356 6461'
+                
             },
         ]
     },
     bones: {
         skate: [
             {
-                imagem: fotoNewEra,
-                marca: 'New Era',
-                preco: '150,00'
+                imagem: fotofeijaodonade,
+                marca: 'Feijão Dona Dê 1KG',
+                preco: 'DE: 10,99 POR: 8,98'
             },
             {
-                imagem: fotoNike,
-                marca: 'Nike',
-                preco: '200,00'
+                imagem: fotodetergenteype,
+                marca: 'Detergente Ype 500ML',
+                preco: 'DE: 4,49 POR: 3,39 '
             },
             {
-                imagem: fotoDC,
-                marca: 'DC',
-                preco: '130,00'
+                imagem: fotopipocapacha,
+                marca: 'Pipoca Yoki microondas',
+                preco: 'DE: 4,99 POR 3,49'
             },
             {
-                imagem: fotoElement,
-                marca: 'Element',
-                preco: '230,00'
+                imagem: fotokuat,
+                marca: 'Refrigerante Kuat 2LT',
+                preco: 'DE: 7,99 POR: 6,49'
             },
             {
-                imagem: fotoSantaCruz,
-                marca: 'Santa Cruz',
-                preco: '210,00'
+                imagem: fotopenteovos,
+                marca: 'Pente de ovos 30 UN',
+                preco: 'POR APENAS: 15,99'
             },
             {
-                imagem: fotoBillabong,
-                marca: 'Billabong',
-                preco: '80,00'
+                imagem: fotomargarinaclay,
+                marca: 'Margarina Claybom 250G',
+                preco: 'DE: 4,99 POR: 2,99'
             },
             {
-                imagem: fotoIndependent,
-                marca: 'Independent',
-                preco: '110,00'
+                imagem: fotogatorade,
+                marca: '3 UNIDADES - Gatorade zero 350ML',
+                preco: 'POR APENAS: 9,99'
             },
             {
-                imagem: fotoSpitFire,
-                marca: 'SpitFire',
-                preco: '190,00'
+                imagem: fotobombomgaroto,
+                marca: 'Caixa de bombom Garoto 250G',
+                preco: 'DE: 13,99 POR: 11,90'
             },
             {
-                imagem: fotoEtnies,
-                marca: 'Etnies',
-                preco: '250,00'
+                imagem: fotonissinlamen,
+                marca: 'Nissin Lámen 85G',
+                preco: 'POR APENAS: 2,99'
             },
             {
-                imagem: fotoQix,
-                marca: 'Qix',
-                preco: '90,00'
+                imagem: fotobombril,
+                marca: 'Esponja de aço BomBril 60G',
+                preco: 'DE: 5,99 POR: 4,80'
             },
         ]
     }

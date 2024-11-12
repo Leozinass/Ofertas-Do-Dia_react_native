@@ -6,16 +6,16 @@ const altura = 168;
 const largura = 200;
 const valor = altura / largura * width;
 
-export default function footer( { listaNomes, professor, materia } ) {
+export default function footer( { listaNomes, loja, endereco } ) {
     return (<View style={ style.container }>
                 <View style={ { marginBottom: 10 } }>
-                    <Text>Professor: { professor }</Text>
-                    <Text>Máteria: { materia }</Text>
+                    <Text>MERCEARIA IPÊ LTDA: { loja }</Text>
+                    <Text>ENDEREÇO: { endereco }</Text>
                 </View>
                     {
-                        listaNomes.map( ( { nome, ra } ) => {
+                        listaNomes.map( ( { nome,numero } ) => {
                             return <View key={ nome }>
-                                        <Text style={ style.texto }>{ nome } - { ra }</Text>
+                                        <Text style={ style.texto }>{ nome } - { numero }</Text>
                                     </View> 
                         })
                     }
@@ -26,15 +26,17 @@ export default function footer( { listaNomes, professor, materia } ) {
 const style = StyleSheet.create({
     container: {
         width: '90%',
-        height: valor,
+        height: 'auto',
         alignItems: 'flex-start',
         padding: 10,
-        backgroundColor: '#FFFFFF',
-        borderRadius: 7,
+        backgroundColor: '#d18c21',
+        borderRadius: 15,
         marginLeft: 20,
         marginBottom: 20,
     },
     texto:{
-        marginBottom: 10
+        marginBottom: 10,
+        fontSize: 15,
+        color: '#f7f8fc'
     }
 });

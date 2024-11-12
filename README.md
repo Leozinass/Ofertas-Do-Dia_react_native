@@ -1,2 +1,2 @@
-# Loja-de-Bones-React-Native-
-Trabalho de conclusão ADS Estácio Conceição (Desenvolvimento Mobile)
+# Ofertas-do-dia_react_native
+Trabalho de conclusão ADS Estácio (Desenvolvimento Mobile)

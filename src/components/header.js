@@ -3,14 +3,15 @@ import { View, StyleSheet, Text, Image, Dimensions } from 'react-native';
 import { LinearGradient } from "expo-linear-gradient";
 
 const width = Dimensions.get('screen').width;
-const altura = 168;
+const altura = 168
+;
 const largura = 350;
 const valor = altura / largura * width;
 
 export default function header({ titulo, subTitulo }) {
     return (<View style={style.container}>
             <View style={style.espaco}></View>
-            <LinearGradient style={style.borda} colors={['#836FFF','#E6E6FA']}>
+            <LinearGradient style={style.borda} colors={['#c9ac7f','#d18c21']}>
                 <View style={style.letreiro}>
                     <Text style={style.fonteTitulo}>{ titulo }</Text>
                     <Text style={style.FonteSubTitulo}>{ subTitulo }</Text>
@@ -23,8 +24,9 @@ export default function header({ titulo, subTitulo }) {
 const style = StyleSheet.create({
     container: {
         width: width,
-        height: valor,
+        height: 190,
         alignItems: 'center'
+        
     },
     espaco: {
         backgroundColor : '#FFFFFF',
@@ -33,18 +35,22 @@ const style = StyleSheet.create({
     letreiro: {
         alignItems: 'center',
         textAlign: 'center',
-        backgroundColor: '#FFFFFF',
+        backgroundColor: '#db6607',
         width: '94%',
         height: '75%',
         marginTop: 16,
-        borderRadius: 7,
-        paddingTop: 12
+        borderRadius: 15,
+        paddingTop: 0
     },
     fonteTitulo: {
-        fontSize: 50
-    },   
+        fontSize: 45,
+        color: '#ffffff'
+        
+        
+            },   
     FonteSubTitulo: {
-        fontSize: 20
+        fontSize: 40,
+        color: '#ffffff'
     },
     borda: {
         width: width,

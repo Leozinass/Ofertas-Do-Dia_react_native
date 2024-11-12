@@ -29,7 +29,7 @@ export default function BoneView({ skate } ) {
 
 const style = StyleSheet.create ({
     container: {
-        backgroundColor: '#836FFF',
+        backgroundColor: '#db6607',
         margin: 20,
         width: '90%',
         height: height,
@@ -45,7 +45,7 @@ const style = StyleSheet.create ({
     },
     marca: {
         textAlign: 'center',
-        color: '#DCDCDC',
+        color: '#ffffff',
         fontSize: 25,
         fontStyle: 'italic'
     },
@@ -63,14 +63,14 @@ const style = StyleSheet.create ({
         marginBottom: 2.5,
         marginLeft: 2.5,
         borderBottomLeftRadius: 7,
-        backgroundColor: '#6868',
+        backgroundColor: '#d18c21',
         fontSize : 20
     },
-    preco: {
+    preco: {  
         color : '#FFFFFF',
         width: '78%',
         textAlign: 'center',
-        backgroundColor: '#836FFF',
+        backgroundColor: '#d18c21',
         marginTop: 2.5,
         marginBottom: 2.5,
         marginLeft: 2.5,
